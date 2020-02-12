@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<h1>Greatest Number: <span class="ans"></span></h1>
+</body>
+<script type='text/javascript'>
+
+i1=window.prompt("enter first number");
+i2=window.prompt("enter second number");
+i3=window.prompt("enter third number");
+
+n1=parseInt(i1);
+n2=parseInt(i2);
+n3=parseInt(i3);
+function isLarge(n1,n2,n3)
+{
+if(n1>n2 & n1>n3)return n1;
+else if(n2>n3) return n2;
+else return n3; 
+}
+document.write(isLarge(n1,n2,n3));
+</script>
+</html>
