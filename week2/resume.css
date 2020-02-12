@@ -1,0 +1,33 @@
+#header{
+  color: red;
+  text-align: center;
+}
+#intro{
+color: black;
+text-align:left;
+
+}
+#headings {
+  border-bottom: 9px ridge teal;
+}
+
+#contents {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+border-radius: 5px;
+}
+
+.footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
+
+
+
