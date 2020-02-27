@@ -1,0 +1,23 @@
+<!doctype.html>
+<html>
+<script type='text/javascript'>
+function verbing(str){
+l=str.length;
+if(l<3)
+{
+return str;}
+else
+{ if(str.slice(l-2,l+1)=="ing")
+return str+'ly';
+else
+return str+'ing';
+}
+}
+</script>
+<body>
+<script type="text/javascript">
+str1=prompt("Enter a string"," ");
+document.write(verbing(str1));
+</script>
+</body>
+</html>
